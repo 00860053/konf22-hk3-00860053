@@ -37,6 +37,7 @@ class WahlauszaehlungTest {
 
     @org.junit.jupiter.api.Test
     void waehlbar() {
+        Assertions.assertTrue(wu.waehlbar());
 
     }
 
