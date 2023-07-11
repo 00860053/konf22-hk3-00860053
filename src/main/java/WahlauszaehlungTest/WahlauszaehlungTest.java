@@ -29,7 +29,9 @@ class WahlauszaehlungTest {
     }
 
     @org.junit.jupiter.api.Test
-    void waehlbar() {
+    boolean waehlenUngueltig() {
+        wu.waehlen(waehlenUngueltig(););
+        Assertions.assertFalse(waehlenUngueltig());
 
     }
 
