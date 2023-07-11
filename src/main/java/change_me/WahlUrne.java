@@ -12,8 +12,9 @@ public class WahlUrne {
     public WahlUrne(String wahlname, List<String> wahlmoeglichkeiten) {
         this.wahlname = wahlname;
         for (String kandidat : wahlmoeglichkeiten) {
-            wahlstimmen.put(kandidat, 1);
+            wahlstimmen.put(kandidat, 0);
         }
+        wahlstimmen.put("ungueltig", 0);
     }
 
     public String getWahlname() {
