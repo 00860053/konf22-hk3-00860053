@@ -1,4 +1,4 @@
-package change_me;
+package Wahlauszaehlung;
 
 import java.util.HashMap;
 import java.util.List;
