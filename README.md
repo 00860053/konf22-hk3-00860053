@@ -2,8 +2,8 @@
 # Konf22-HK3 
 Datum: 11.07.2023
 
-Vorname:
+Vorname: Jenny
 
-Nachname:
+Nachname: Brunner
 
-E-Mail:
+E-Mail: 00860053@edu.campus02.at
