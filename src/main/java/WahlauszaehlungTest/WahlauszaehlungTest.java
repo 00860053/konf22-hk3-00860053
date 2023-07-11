@@ -23,14 +23,19 @@ class WahlauszaehlungTest {
 
     @org.junit.jupiter.api.Test
     void waehlen() {
-
+        wu.waehlbar(wu.getWahlname());
+        Assertions.assertTrue(waehlen());
 
     }
 
     @org.junit.jupiter.api.Test
     void waehlbar() {
-        wu.waehlbar(wu.getWahlname());
-        Assertions.assertTrue(waehlen());
+
+    }
+
+    @org.junit.jupiter.api.Test
+    void waehlbar() {
+
     }
 
     @org.junit.jupiter.api.Test
